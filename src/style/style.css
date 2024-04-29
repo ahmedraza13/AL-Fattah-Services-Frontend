@@ -1,0 +1,287 @@
+/* importing fonts */
+
+@font-face {
+  font-family: "Karla";
+  src: url("./fonts/Karla/static/Karla-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Navbar CSS */
+nav {
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  margin-left: 125px;
+}
+
+.navbar-nav {
+  margin-right: 125px;
+}
+
+.nav-item a {
+  font-family: "Karla", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #906fa6;
+}
+
+.nav-item a:hover {
+  color: #d71a21;
+}
+
+.navbar-nav button {
+  outline: none;
+  border: none;
+  background-color: #004175;
+  color: #ffffff;
+  font-family: "Karla", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 0;
+}
+
+.navbar-nav button:hover {
+  background-color: #d71a21;
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  border: none;
+
+  font-size: 30px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    margin-left: 0px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0px;
+    background-color: #f5f5f5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  .navbar-logo,
+  .navbar-toggler {
+    z-index: 2000;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 975px) {
+  .navbar-brand {
+    margin-left: 10px;
+  }
+
+  .navbar-nav {
+    margin-right: 10px;
+  }
+}
+
+/* Navbar CSS End  */
+
+/* Slider CSS */
+
+@media screen and (max-width: 767px) {
+  .carousel-item > img {
+    height: 300px;
+  }
+}
+
+/* Slider CSS End */
+
+/* Entities Card CSS */
+
+.entities-card-container .row > h1 {
+  color: #004175;
+  font-size: 20px;
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+
+  text-align: center;
+}
+.slick-list {
+  overflow: hidden;
+}
+
+.entities-card-container .card {
+  border: none;
+  width: 180px;
+  height: 100px;
+  margin-top: 20px;
+  background-color: #d71a21;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.entities-card-container .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.slick-dots {
+  bottom: auto;
+}
+@media screen and (max-width: 1024px) {
+  .entities-card-container .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Entities Card CSS End */
+
+.service_section .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  padding: 30px 25px;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 45px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  
+}
+
+.service_section .heading_container {
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #004175;
+}
+
+
+.service_section .box img {
+  width: 75px;
+}
+
+.service_section .box:hover {
+  background-color: #071a52;
+  color: #ffffff;
+  -webkit-box-shadow: 15px 15px 0 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 15px 15px 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.service_section .box:hover img {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+
+.service_section .detail-box {
+  margin-left: 25px;
+}
+
+.service_section .detail-box h6 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.service_section .detail-box a {
+  display: inline-block;
+  padding: 8px 35px;
+  background-color: #d71a21;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+  margin-top: 10px;
+}
+
+.service_section .detail-box a:hover {
+  background-color: transparent;
+  border-color: #8eec69;
+  color: #8eec69;
+}
+
+.service_section {
+  .box {
+    display: flex;
+    background-color: #ffffff;
+    padding: 30px 25px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 45px;
+    transition: all 0.3s;
+
+    img {
+      width: 75px;
+    }
+
+    &:hover {
+      background-color: #071a52;
+      color: #ffffff;
+      box-shadow: 15px 15px 0 1px rgba(0, 0, 0, 0.2);
+
+      img {
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+
+  .detail-box {
+    margin-left: 25px;
+
+    h6 {
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    a {
+      @include hero_btn(#071a52, #ffffff, 8px, 35px);
+      margin-top: 10px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .service_section .box {
+    flex-direction: column;
+  }
+
+  .service_section .detail-box {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}
+
+/* Service Card CSS End */
+
+/* About CSS Start */
