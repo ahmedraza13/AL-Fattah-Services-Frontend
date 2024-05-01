@@ -59,7 +59,7 @@ const EntitiesCard = () => {
   };
 
   return (
-    <div className="container entities-card-container mt-5">
+    <div className="container entities-card-container ">
       <div className="row"> {/* Center the card on small screens */}
           <h1  >We process the following Government entities for you:</h1>
           <Slider {...settings}>

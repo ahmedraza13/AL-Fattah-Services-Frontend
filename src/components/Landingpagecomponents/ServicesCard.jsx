@@ -10,7 +10,8 @@ const ServicesCard = () => {
     <section className="service_section layout_padding">
       <div className="container">
         <div className="heading_container heading_center mt-5 text-center">
-          <h2>Our services</h2>
+          <span>What we do? </span>
+          <h2>The service we offer is specifically <br /> designed to meet your needs.</h2>
         </div>
         <div className="row">
           <div className="col-lg-4 col-md-6 col-12">
@@ -18,7 +19,7 @@ const ServicesCard = () => {
               <div className="img-box ">
                 <img src={iconone} alt="" />
               </div>
-              <div className="detail-box">
+              <div className="detail-box text-center ">
                 <h6>Business setup (Main land and Free Zone)</h6>
                 <p>
                   Limited regulations and easy access to the international
@@ -33,7 +34,7 @@ const ServicesCard = () => {
               <div className="img-box ">
                 <img src={icontwo} alt="" />
               </div>
-              <div className="detail-box ">
+              <div className="detail-box text-center ">
                 <h6>PRO Services</h6>
                 <p>
                   Our team offer professional PRO services to the clients. We
@@ -48,7 +49,7 @@ const ServicesCard = () => {
               <div className="img-box">
                 <img src={iconthree} alt="" />
               </div>
-              <div className="detail-box ">
+              <div className="detail-box text-center ">
                 <h6>Department of Economic (DED)</h6>
                 <p>
                   We identify the needs of our client related to the Department

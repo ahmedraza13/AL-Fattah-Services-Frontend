@@ -14,14 +14,20 @@
   font-style: normal;
 }
 
-body{
-overflow-x: hidden;
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost/static/Jost-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  overflow-x: hidden;
 }
 
 /* Header Styling */
 .header-container {
   padding: 10px 0px;
-  background-color: #1658ac;
+  background: linear-gradient(92.94deg, #2438cb 2.4%, #b600d1 97.52%);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -94,7 +100,7 @@ nav {
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #1658ac;
+  color: #004175;
 }
 
 .nav-item a:hover {
@@ -168,23 +174,77 @@ nav {
 /* _________________Navbar Styling End____________________ */
 
 /* Slider Styling */
+.slider-container {
+  background-image: url("../Images/slider-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
+.slider-container .left-side > h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Jost";
+  font-weight: 500;
+  line-height: 57px;
+}
+
+.slider-container .left-side > p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Jost";
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.slider-container .left-side > button {
+  border-radius: 66px;
+  padding: 16px 32px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  line-height: 23.12px;
+  text-align: left;
+  background-color: #ffffff;
+  color: #1658ac;
+  margin: 10px 10px;
+  border: none;
+  outline: none;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23.12px;
+  text-align: left;
+}
 @media screen and (max-width: 767px) {
   .carousel-item > img {
-    height: 300px;
+    height: 400px;
+   margin-top: 30px;
+  }
+
+  .slider-container .left-side > h1 {
+    font-size: 30px;
+    line-height: 40px;
+
   }
 }
 
 /* _________________Slider Styling End____________________ */
 
 /* Entities Card Styling */
-
+.entities-card-container{
+  margin-top: 80px;
+}
 .entities-card-container .row > h1 {
-  color: #004175;
-  font-size: 20px;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-weight: 400;
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 30px;
+  color: #111111;
   text-align: center;
+
+
+}
+
+.entities-card-container .card-wrapper{
+  margin-top: 40px;
 }
 .slick-list {
   overflow: hidden;
@@ -200,7 +260,7 @@ nav {
   border-radius: 5px;
   margin-bottom: 10px;
   text-align: center;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Jost";
   font-weight: 400;
   font-size: 18px;
   text-transform: uppercase;
@@ -234,10 +294,17 @@ nav {
 
 /* Service Section Styling */
 
+.service_section{
+  margin-top: 100px;
+}
 .service_section .box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
   background-color: #ffffff;
   padding: 30px 25px;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
@@ -247,36 +314,43 @@ nav {
   transition: all 0.3s;
 }
 
-.service_section .heading_container {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-weight: 400;
+.service_section .heading_container > h2 {
+  margin-top: 30px;
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 36px;
+  color: #111111;
+  text-align: center;
+  
+}
+
+.service_section .heading_container > span{
+  font-family: "Jost";
+  font-weight: 500;
   font-size: 20px;
+  color: #757ed1;
   text-transform: uppercase;
-  color: #004175;
 }
 
 .service_section .box img {
   width: 75px;
 }
 
-.service_section .box:hover {
+/* .service_section .box:hover {
   background-color: #071a52;
   color: #ffffff;
   -webkit-box-shadow: 15px 15px 0 1px rgba(0, 0, 0, 0.2);
   box-shadow: 15px 15px 0 1px rgba(0, 0, 0, 0.2);
-}
+} */
 
-.service_section .box:hover img {
+/* .service_section .box:hover img {
   -webkit-filter: brightness(0) invert(1);
   filter: brightness(0) invert(1);
-}
+} */
 
-.service_section .detail-box {
- 
-  margin-left: 25px;
-}
 
-.service_section .detail-box h6 {
+
+.service_section .detail-box > h6 {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -285,7 +359,7 @@ nav {
   margin-bottom: 20px;
 }
 
-.service_section .detail-box p {
+.service_section .detail-box > p {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -310,51 +384,11 @@ nav {
 .service_section .detail-box a:hover {
   background-color: transparent;
   border-color: white;
- background-color: #ffffff;
+  background-color: #ffffff;
   color: blue;
 }
 
-.service_section {
-  .box {
-    display: flex;
-    background-color: #ffffff;
 
-    padding: 30px 25px;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
-    margin-top: 45px;
-    transition: all 0.3s;
-
-    img {
-      width: 75px;
-    }
-
-    &:hover {
-      background-color: #1658ac;
-      color: #ffffff;
-      box-shadow: 15px 15px 0 1px rgba(0, 0, 0, 0.2);
-
-      img {
-        filter: brightness(0) invert(1);
-      }
-    }
-  }
-
-  .detail-box {
-    margin-left: 25px;
-
-    h6 {
-      font-size: 18px;
-      font-weight: bold;
-      text-transform: uppercase;
-      margin-bottom: 20px;
-    }
-
-    a {
-      @include hero_btn(#071a52, #ffffff, 8px, 35px);
-      margin-top: 10px;
-    }
-  }
-}
 
 /* Service Section Media Query */
 @media (max-width: 480px) {
@@ -370,47 +404,44 @@ nav {
 
 /* _________________Service Card Styling End____________________ */
 
-
 /* About Section Styling */
 
 .about-section-container {
   margin-top: 80px;
-  background-color: #1658ac;
+  background:linear-gradient(92.94deg, #2438cb 2.4%, #b600d1 97.52%);
   padding: 50px;
 }
 
- .about-section-container h2 {
+.about-section-container h2 {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 30px;
-  color: #ffffff !important; 
-}
-
-.about-section-container p{
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
   color: #ffffff !important;
 }
 
-.about-section-container button{
+.about-section-container p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff !important;
+}
+
+.about-section-container button {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
   background-color: #1658ac;
   color: #ffffff;
- 
 }
 
 @media screen and (max-width: 767px) {
-  .about-section-container h2{
+  .about-section-container h2 {
     margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .about-section-container img{
+  .about-section-container img {
     height: 300px;
   }
 }
-
