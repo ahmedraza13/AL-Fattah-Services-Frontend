@@ -6,7 +6,7 @@ const Slider = () => {
     return (
       <div
       id="carouselExampleInterval"
-      className="carousel slide "
+      className="carousel slide mt-5 "
       data-bs-ride="carousel"
     >
       <div className="carousel-inner">

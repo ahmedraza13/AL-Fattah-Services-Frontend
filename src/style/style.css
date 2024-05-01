@@ -1,15 +1,84 @@
 /* importing fonts */
 
 @font-face {
-  font-family: "Karla";
-  src: url("./fonts/Karla/static/Karla-Bold.ttf");
-  font-weight: 700;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: 400;
   font-style: normal;
 }
 
-/* Navbar CSS */
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body{
+overflow-x: hidden;
+}
+
+/* Header Styling */
+.header-container {
+  padding: 10px 0px;
+  background-color: #1658ac;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-container .left-side span {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.header-container .right-side > a {
+  padding-right: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.right-side .bi-facebook:hover {
+  color: blue;
+}
+
+.right-side .bi-whatsapp:hover {
+  color: #25d366;
+}
+
+.right-side .bi-instagram:hover {
+  color: purple;
+}
+/* Header Media Query */
+@media screen and (max-width: 380px) {
+  .header-container .left-side span {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  .header-container .right-side > i {
+    padding: 10px 10px;
+  }
+}
+
+/* _________________Header Styling End____________________ */
+
+/* Navbar Styling */
 nav {
   background-color: #ffffff;
+
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .navbar-brand {
@@ -21,11 +90,11 @@ nav {
 }
 
 .nav-item a {
-  font-family: "Karla", Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
   text-transform: uppercase;
-  color: #906fa6;
+  color: #1658ac;
 }
 
 .nav-item a:hover {
@@ -52,7 +121,6 @@ nav {
 
 .navbar-toggler {
   border: none;
-
   font-size: 30px;
 }
 
@@ -61,7 +129,7 @@ nav {
   border: none;
   outline: none;
 }
-
+/* Navbar Media Query */
 @media screen and (max-width: 767px) {
   .navbar-brand {
     margin-left: 0px;
@@ -97,9 +165,9 @@ nav {
   }
 }
 
-/* Navbar CSS End  */
+/* _________________Navbar Styling End____________________ */
 
-/* Slider CSS */
+/* Slider Styling */
 
 @media screen and (max-width: 767px) {
   .carousel-item > img {
@@ -107,16 +175,15 @@ nav {
   }
 }
 
-/* Slider CSS End */
+/* _________________Slider Styling End____________________ */
 
-/* Entities Card CSS */
+/* Entities Card Styling */
 
 .entities-card-container .row > h1 {
   color: #004175;
   font-size: 20px;
-  font-family: Karla, Arial, Helvetica, sans-serif;
-  font-weight: 700;
-
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 400;
   text-align: center;
 }
 .slick-list {
@@ -128,13 +195,13 @@ nav {
   width: 180px;
   height: 100px;
   margin-top: 20px;
-  background-color: #d71a21;
+  background-color: #1658ac;
   color: #ffffff;
   border-radius: 5px;
   margin-bottom: 10px;
   text-align: center;
-  font-family: Karla, Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 18px;
   text-transform: uppercase;
   cursor: pointer;
@@ -154,6 +221,8 @@ nav {
 .slick-dots {
   bottom: auto;
 }
+
+/* Entities Card Media Query */
 @media screen and (max-width: 1024px) {
   .entities-card-container .card {
     margin-left: auto;
@@ -161,7 +230,9 @@ nav {
   }
 }
 
-/* Entities Card CSS End */
+/* _________________Entities Card Styling End____________________ */
+
+/* Service Section Styling */
 
 .service_section .box {
   display: -webkit-box;
@@ -174,17 +245,15 @@ nav {
   margin-top: 45px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  
 }
 
 .service_section .heading_container {
-  font-family: Karla, Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 20px;
   text-transform: uppercase;
   color: #004175;
 }
-
 
 .service_section .box img {
   width: 75px;
@@ -203,20 +272,34 @@ nav {
 }
 
 .service_section .detail-box {
+ 
   margin-left: 25px;
 }
 
 .service_section .detail-box h6 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 
+.service_section .detail-box p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
 .service_section .detail-box a {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
   display: inline-block;
   padding: 8px 35px;
-  background-color: #d71a21;
+  background-color: #1658ac;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -226,14 +309,16 @@ nav {
 
 .service_section .detail-box a:hover {
   background-color: transparent;
-  border-color: #8eec69;
-  color: #8eec69;
+  border-color: white;
+ background-color: #ffffff;
+  color: blue;
 }
 
 .service_section {
   .box {
     display: flex;
     background-color: #ffffff;
+
     padding: 30px 25px;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
     margin-top: 45px;
@@ -244,7 +329,7 @@ nav {
     }
 
     &:hover {
-      background-color: #071a52;
+      background-color: #1658ac;
       color: #ffffff;
       box-shadow: 15px 15px 0 1px rgba(0, 0, 0, 0.2);
 
@@ -271,6 +356,7 @@ nav {
   }
 }
 
+/* Service Section Media Query */
 @media (max-width: 480px) {
   .service_section .box {
     flex-direction: column;
@@ -282,6 +368,49 @@ nav {
   }
 }
 
-/* Service Card CSS End */
+/* _________________Service Card Styling End____________________ */
 
-/* About CSS Start */
+
+/* About Section Styling */
+
+.about-section-container {
+  margin-top: 80px;
+  background-color: #1658ac;
+  padding: 50px;
+}
+
+ .about-section-container h2 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #ffffff !important; 
+}
+
+.about-section-container p{
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff !important;
+}
+
+.about-section-container button{
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #1658ac;
+  color: #ffffff;
+ 
+}
+
+@media screen and (max-width: 767px) {
+  .about-section-container h2{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .about-section-container img{
+    height: 300px;
+  }
+}
+

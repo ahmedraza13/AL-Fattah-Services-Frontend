@@ -1,103 +1,19 @@
-import navlogo from "../../Images/al-fattah-logo.png";
-import { useState } from "react";
+
 
 const Header = () => {
-  const [isMenuOpen, setMenuOpen] = useState(true);
-  const toggleMenu = () => {
-    setMenuOpen(!isMenuOpen);
-  };
   return (
-    <nav className="navbar navbar-expand-md">
-      <div className="container-fluid d-flex justify-content-around align-items-center">
-        <a className="navbar-brand mt-2" href="#">
-          <img src={navlogo} alt="nav-logo" width={80} />
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          onClick={toggleMenu}
-        >
-          {isMenuOpen ? (
-            <i
-              className="bi bi-list"
-              style={{ fontSize: "30px", color: "#004175" }}
-            />
-          ) : (
-            <i
-              className="bi bi-x"
-              style={{ fontSize: "30px", color: "#004175" }}
-            ></i>
-          )}
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav gap-3 ms-auto  ">
-            <li className="nav-item mt-2">
-              <a className="nav-link " aria-current="page" href="#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item dropdown mt-2">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Services
-              </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Business Setup
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Visa
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Typing and PRO Service
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Translation Service
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Social Media
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li className="nav-item mt-2">
-              <a className="nav-link" href="#">
-                About Us
-              </a>
-            </li>
-            <li className="nav-item mt-2">
-              <a className="nav-link" href="#">
-                Gallery
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                <button className="btn btn-primary">Contact Us</button>
-              </a>
-            </li>
-          </ul>
-        </div>
+    <div className="header-container">
+      <div className="left-side">
+        <span>++92-12345678</span>
+        <span>|</span>
+        <span>info@alfattahservice.com</span>
       </div>
-    </nav>
+      <div className="right-side">
+        <a href="https://www.facebook.com/people/Al-Fattah/61558987553137/?mibextid=JRoKGi" target="_blank"><i className="bi bi-facebook"></i></a>
+        <a href="https://wa.me/971522990514" target="_blank"><i className="bi bi-whatsapp "></i></a>
+        <a href="https://www.instagram.com/alfattah.ae?igsh=M3k5aG10dGFyNHJn" target="_blank"><i className="bi bi-instagram "></i></a>
+      </div>
+    </div>
   );
 };
 
