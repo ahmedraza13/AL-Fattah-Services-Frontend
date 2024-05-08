@@ -437,3 +437,337 @@ nav {
 /* _________________Entities Card Styling End____________________ */
 
 
+/* Visa Service Page Styling */
+
+.App {
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.main-section{
+  display: flex;
+  flex-direction: row;
+
+ 
+
+}
+
+
+
+.sub-main-sec{
+ width: 60%;
+ margin-top: 50px;
+
+}
+
+.sub-main-sec2{
+  width: 40%;
+  margin: 50px;
+  padding: 20px;
+  border: 1px  solid #EB802E17;
+  border-radius: 50px 10px 50px 0px;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #29479729 0%, #EB802E17 100%);
+}
+
+input{
+  line-height: 40px;
+  margin: 10px 0 ;
+  padding: 10px;
+  width: 100%;
+}
+
+textarea{
+  line-height: 40px;
+  margin: 10px 0 ;
+  padding: 10px;
+  width: 100%;
+}
+
+form>button{
+  margin-top: 50px;
+  color: white;
+  background-color:  #004175;
+  width: 100%;
+  
+  font-weight: bold;
+  border:white;
+  padding: 10px;
+  font-size: large;
+  
+}
+
+
+
+
+.child{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid  #004175;
+  border-radius: 0px 0px 50px 0px ;
+  padding: 2px;
+  box-shadow: 2px 4px 5px #7a8dc1;
+  padding: 10px;
+  color: white;
+  background-color:#004175;
+  margin-top: 80px;
+
+}
+.child>h3{
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.child>p{
+ margin  :30px
+ 
+}
+
+.child>button{
+  height: 30%;
+  margin-top: 30px;
+  width: 20%;
+  background-color: #fff;
+  color: #004175;
+}
+.button-color{
+  background-color:  #004175;
+  width: 100%;
+  color:#004175;
+  font-weight: bold;
+  border:white;
+  padding: 10px;
+  font-size: large;
+  }
+  
+  .input-border{
+    border-color: black;
+  }
+
+@media screen and (max-width: 768px) {
+  .main-section{
+    display: flex;
+    flex-direction: column;
+  
+   
+  
+  }
+  .sub-main-sec{
+    width: 100%;
+    margin-top: 20px;
+   
+   }
+   
+   .sub-main-sec2{
+     width: 100%;
+     margin: 20px;
+     padding: 10px;
+    
+   }
+   .child{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  
+ 
+    
+  }
+  
+  .child>p{
+    margin-top: 10px;
+   
+  }
+
+  .child>button{
+    width: 40%;
+    margin: 40px;
+  }
+  
+  
+
+ 
+  form>button{
+    
+    width: 80%;
+    
+    
+    
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+.button-color-2{
+  background-color: #004175;
+  color: white;
+font-weight: bold;
+border: #004175;
+padding: 10px 20px;
+font-size: large;
+margin-left: 40px;
+}
+
+.flex{
+  display:"flex";
+  flex-direction: row;
+  border: 1px solid black;
+  width: 70%;
+
+  
+}
+
+.head-color{
+  color: #294797;
+  
+}
+
+.section-2-main{
+  background-color: #F3F3F3;
+}
+
+
+.section-2-cards{
+  display: flex;
+  flex-direction: row;
+justify-content: space-around;
+  flex-wrap: wrap;
+
+
+}
+
+
+.section-2-cards>div{
+  padding: 40px 20px;
+  border: 1px solid #004175;
+  margin: 10px;
+  font-weight: bold;
+
+ width: 20%;
+
+}
+.section-2-cards>div:hover{
+box-shadow: 2px 2px  #004175;
+border-radius: 5px;
+padding: 40px 30px;
+
+}
+
+.section-2-top{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-2-topdetail{
+  font-size: large;
+}
+
+.section-2-text{
+text-align: justify;
+}
+
+.section-4,.section-6,.section-8{
+  background-color: #004175;
+  color: white;
+  text-align: justify;
+  line-height: 30px;
+  padding: 20px;
+  font-size: large;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.section-3,.section-5,.section-7,.section-9{
+  color: #004175;
+  text-align: justify;
+  line-height: 30px;
+  padding: 20px;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.section-3,.section-5,.section-7,.section-9>h3{
+  text-align: center;
+}
+
+.empty{
+  width: 200px;
+  height: 2px;
+  color: #004175;
+  background-color: #004175;
+  text-align: center;
+  margin-bottom: 5px ;
+  
+}
+
+.empty-white{
+  width: 200px;
+  height: 2px;
+  background:white;
+  color: white;
+  
+  text-align: center;
+  margin-bottom: 5px ;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .section-2-cards>div{
+    padding: 20px 10px;
+    border: 1px solid #004175;
+    margin: 10px;
+    font-weight: bold;
+  height: 30%;
+   width: 80%
+  
+  }
+}

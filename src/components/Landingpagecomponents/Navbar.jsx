@@ -1,4 +1,5 @@
 import navlogo from "../../Images/logotys.png";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -58,9 +59,9 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link to={"/visa-service"} className="dropdown-item" href="#">
                     Visa
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
