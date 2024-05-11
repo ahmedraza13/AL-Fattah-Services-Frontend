@@ -11,15 +11,8 @@ const Footer = () => {
               <div className="row gy-4 gy-lg-0 justify-content-xl-between">
                 <div className="col-12 col-md-4 col-lg-3 col-xl-2">
                   <div className="widget">
-                    <a href="#!">
-                      <img
-                        src={logo}
-                        alt="BootstrapBrain Logo"
-                        width={175}
-                        height={57}
-                       
-                      />
-                    </a>
+                  
+                      <h3 className='text-white'>Al Fattah Documents Clearing Services</h3>
                   </div>
                 </div>
                 <div className="col-12 col-md-4 col-lg-3 col-xl-2">

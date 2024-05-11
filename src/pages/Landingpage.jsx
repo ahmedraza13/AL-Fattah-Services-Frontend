@@ -6,6 +6,7 @@ import BusinessSetupSection from '../components/Landingpagecomponents/BusinessSe
 import AboutSection from '../components/Landingpagecomponents/AboutSection';
 import ServiceCard from '../components/Landingpagecomponents/ServicesCard';
 import EntitiesCard from '../components/Landingpagecomponents/EntitiesCard';
+import Footer from '../components/Landingpagecomponents/Footer';
 // import ContactSection from '../components/Landingpagecomponents/ContactSection';
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <AboutSection />
       <ServiceCard />
       <EntitiesCard />
+      <Footer/>
       {/* <ContactSection /> */}
      
     </div>

@@ -2,6 +2,7 @@
 import Header from "../components/Landingpagecomponents/Header";
 import Navbar from "../components/Landingpagecomponents/Navbar";
 import Footer from "../components/Landingpagecomponents/Footer";
+import Visabanner from '../Images/visa-page-img.jpg'
 
 function VisaServicePage() {
   return (
@@ -44,16 +45,7 @@ function VisaServicePage() {
             </div>
           </div>
           <div className="sub-main-sec2">
-            <form action="" className="form">
-              <h3 className="head-color">GET FREE CONSULTATION</h3>
-              <input type="email" placeholder="Email" />
-
-              <input type="number" placeholder="Phone" />
-
-              <textarea rows="3">Message</textarea>
-
-              <button type="submit">submit</button>
-            </form>
+            <img src={Visabanner} alt="visabanner" width={500} />
           </div>
         </div>
 

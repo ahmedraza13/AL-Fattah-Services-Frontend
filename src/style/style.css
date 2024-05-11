@@ -436,14 +436,13 @@ nav {
 
 /* _________________Entities Card Styling End____________________ */
 
-
 /* Visa Service Page Styling */
 
 .App {
   text-align: center;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -458,158 +457,128 @@ nav {
   }
 }
 
-.main-section{
+.main-section {
   display: flex;
   flex-direction: row;
-
- 
-
 }
 
-
-
-.sub-main-sec{
- width: 60%;
- margin-top: 50px;
-
+.sub-main-sec {
+  width: 60%;
+  margin-top: 50px;
 }
 
-.sub-main-sec2{
+.sub-main-sec2 {
   width: 40%;
   margin: 50px;
   padding: 20px;
-  border: 1px  solid #EB802E17;
+  border: 1px solid #eb802e17;
   border-radius: 50px 10px 50px 0px;
   background-color: transparent;
-  background-image: linear-gradient(180deg, #29479729 0%, #EB802E17 100%);
+  background-image: linear-gradient(180deg, #29479729 0%, #eb802e17 100%);
 }
 
-input{
+input {
   line-height: 40px;
-  margin: 10px 0 ;
+  margin: 10px 0;
   padding: 10px;
   width: 100%;
 }
 
-textarea{
+textarea {
   line-height: 40px;
-  margin: 10px 0 ;
+  margin: 10px 0;
   padding: 10px;
   width: 100%;
 }
 
-form>button{
+form > button {
   margin-top: 50px;
   color: white;
-  background-color:  #004175;
+  background-color: #004175;
   width: 100%;
-  
+
   font-weight: bold;
-  border:white;
+  border: white;
   padding: 10px;
   font-size: large;
-  
 }
 
-
-
-
-.child{
+.child {
   display: flex;
   justify-content: space-between;
-  border: 1px solid  #004175;
-  border-radius: 0px 0px 50px 0px ;
+  border: 1px solid #004175;
+  border-radius: 0px 0px 50px 0px;
   padding: 2px;
   box-shadow: 2px 4px 5px #7a8dc1;
   padding: 10px;
   color: white;
-  background-color:#004175;
+  background-color: #004175;
   margin-top: 80px;
-
 }
-.child>h3{
+.child > h3 {
   color: white;
   margin: 0;
   padding: 0;
 }
 
-
-
-.child>p{
- margin  :30px
- 
+.child > p {
+  margin: 30px;
 }
 
-.child>button{
+.child > button {
   height: 30%;
   margin-top: 30px;
   width: 20%;
   background-color: #fff;
   color: #004175;
 }
-.button-color{
-  background-color:  #004175;
+.button-color {
+  background-color: #004175;
   width: 100%;
-  color:#004175;
+  color: #004175;
   font-weight: bold;
-  border:white;
+  border: white;
   padding: 10px;
   font-size: large;
-  }
-  
-  .input-border{
-    border-color: black;
-  }
+}
+
+.input-border {
+  border-color: black;
+}
 
 @media screen and (max-width: 768px) {
-  .main-section{
+  .main-section {
     display: flex;
     flex-direction: column;
-  
-   
-  
   }
-  .sub-main-sec{
+  .sub-main-sec {
     width: 100%;
     margin-top: 20px;
-   
-   }
-   
-   .sub-main-sec2{
-     width: 100%;
-     margin: 20px;
-     padding: 10px;
-    
-   }
-   .child{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
-  
- 
-    
-  }
-  
-  .child>p{
-    margin-top: 10px;
-   
   }
 
-  .child>button{
+  .sub-main-sec2 {
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+  }
+  .child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .child > p {
+    margin-top: 10px;
+  }
+
+  .child > button {
     width: 40%;
     margin: 40px;
   }
-  
-  
 
- 
-  form>button{
-    
+  form > button {
     width: 80%;
-    
-    
-    
   }
 }
 .App-header {
@@ -636,80 +605,69 @@ form>button{
   }
 }
 
-
-
-
-
-.button-color-2{
+.button-color-2 {
   background-color: #004175;
   color: white;
-font-weight: bold;
-border: #004175;
-padding: 10px 20px;
-font-size: large;
-margin-left: 40px;
+  font-weight: bold;
+  border: #004175;
+  padding: 10px 20px;
+  font-size: large;
+  margin-left: 40px;
 }
 
-.flex{
-  display:"flex";
+.flex {
+  display: "flex";
   flex-direction: row;
   border: 1px solid black;
   width: 70%;
-
-  
 }
 
-.head-color{
+.head-color {
   color: #294797;
-  
 }
 
-.section-2-main{
-  background-color: #F3F3F3;
+.section-2-main {
+  background-color: #f3f3f3;
 }
 
-
-.section-2-cards{
+.section-2-cards {
   display: flex;
   flex-direction: row;
-justify-content: space-around;
+  justify-content: space-around;
   flex-wrap: wrap;
-
-
 }
 
-
-.section-2-cards>div{
+.section-2-cards > div {
   padding: 40px 20px;
   border: 1px solid #004175;
   margin: 10px;
   font-weight: bold;
 
- width: 20%;
-
+  width: 20%;
 }
-.section-2-cards>div:hover{
-box-shadow: 2px 2px  #004175;
-border-radius: 5px;
-padding: 40px 30px;
-
+.section-2-cards > div:hover {
+  box-shadow: 2px 2px #004175;
+  border-radius: 5px;
+  padding: 40px 30px;
 }
 
-.section-2-top{
+.section-2-top {
   text-align: center;
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-.section-2-topdetail{
+.section-2-topdetail {
   font-size: large;
 }
 
-.section-2-text{
-text-align: justify;
+.section-2-text {
+  text-align: justify;
 }
 
-.section-4,.section-6,.section-8{
+.section-4,
+.section-6,
+.section-8 {
   background-color: #004175;
   color: white;
   text-align: justify;
@@ -718,10 +676,12 @@ text-align: justify;
   font-size: large;
   margin-top: 50px;
   margin-bottom: 50px;
-  
 }
 
-.section-3,.section-5,.section-7,.section-9{
+.section-3,
+.section-5,
+.section-7,
+.section-9 {
   color: #004175;
   text-align: justify;
   line-height: 30px;
@@ -734,40 +694,218 @@ text-align: justify;
   margin-bottom: 50px;
 }
 
-
-.section-3,.section-5,.section-7,.section-9>h3{
+.section-3,
+.section-5,
+.section-7,
+.section-9 > h3 {
   text-align: center;
 }
 
-.empty{
+.empty {
   width: 200px;
   height: 2px;
   color: #004175;
   background-color: #004175;
   text-align: center;
-  margin-bottom: 5px ;
-  
+  margin-bottom: 5px;
 }
 
-.empty-white{
+.empty-white {
   width: 200px;
   height: 2px;
-  background:white;
+  background: white;
   color: white;
-  
+
   text-align: center;
-  margin-bottom: 5px ;
-  
+  margin-bottom: 5px;
 }
 
 @media screen and (max-width: 768px) {
-  .section-2-cards>div{
+  .section-2-cards > div {
     padding: 20px 10px;
     border: 1px solid #004175;
     margin: 10px;
     font-weight: bold;
-  height: 30%;
-   width: 80%
-  
+    height: 30%;
+    width: 80%;
   }
+}
+
+/* ____________Visa Page Styling End_____________________________ */
+
+/* PRO SERVICES CSS */
+
+/* PRO BANNER CSS */
+
+.probanner .probannerimg > img {
+  width: 100%;
+}
+
+/* PRO INTRO CSS */
+.pro-intro h1 {
+  font-family: "Arial", Helvetica, sans-serif;
+  color: #294797;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.pro-intro p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/* ___________________PRO INTRO CSS END_______________________ */
+
+/* PRO OVERVIEW CSS */
+
+.pro-overview-section {
+  margin-top: 120px;
+}
+.pro-overview-section h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  color: black;
+  text-align: center;
+}
+
+.pro-overview-section p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #111d29;
+  margin-top: 10px;
+}
+.pro-overview-section .card {
+  height: 100%;
+  outline: none;
+  box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.75);
+
+  border-radius: 0px;
+
+  cursor: pointer;
+}
+.pro-overview-section .card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #294797;
+}
+
+.pro-overview-section .card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #111d29;
+}
+
+
+/* _______PRO OVERVIEW CSS END______________ */
+
+
+/* PRO DOCUMENTS CSS */
+
+.pro-documents-section{
+  background-color: #004175;
+  padding-bottom: 40px;
+ 
+}
+.pro-documents-section h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  color: #ffffff;
+  border-bottom: 1px solid white;
+  
+}
+
+.pro-documents-section p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 20px;
+ 
+}
+
+
+
+.pro-documents-section li{
+  color: #ffffff;
+  font-size: 18px;
+  list-style: none;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+
+/* PRO BENEFITS CSS */
+
+.pro-benefits-section .row > h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  color: #294797;
+  text-align: center;
+}
+
+.pro-benefits-section .row > p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #111d29;
+  text-align: center;
+}
+
+.pro-benefits-text{
+  margin-top: 20px;
+}
+ .pro-benefits-section .pro-benefits-text  h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: purple ;
+}
+
+.pro-benefits-section .pro-benefits-text  p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+@media screen and (max-width: 990px)  {
+  .pro-benefits-section .pro-benefits-text{
+    text-align: center;
+  }
+}
+
+
+/* BEST PROSERVICE CSS */
+
+
+.best-pro-service{
+  background-color: #004175;
+}
+
+.best-pro-service  h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  color: #ffffff;
+  border-bottom: 1px solid white;
+}
+
+.best-pro-service p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+
+
+/* Al Fattah Help CSS */
+
+.al-fattah-help .row > h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  color: #294797;
+}
+
+.al-fattah-help .row > p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #111d29;
 }

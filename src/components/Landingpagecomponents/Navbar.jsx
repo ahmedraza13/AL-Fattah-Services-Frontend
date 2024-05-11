@@ -38,9 +38,9 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav gap-3 ms-auto  ">
             <li className="nav-item mt-2">
-              <a className="nav-link " aria-current="page" href="#">
+              <Link to={"/"} className="nav-link " aria-current="page" href="#">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item dropdown mt-2">
               <a
@@ -64,9 +64,9 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Typing and PRO Service
-                  </a>
+                <Link to={"/pro-service"} className="dropdown-item" href="#">
+                    Typing and Pro Services
+                  </Link>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">

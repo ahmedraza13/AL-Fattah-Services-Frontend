@@ -27,7 +27,7 @@ const ServiceCard = () => {
                 <h5 className="card-title">Business Setup Services</h5>
                 <p className="card-text">
                   Unlock the gateway to seamless business establishment in
-                  Dubai's mainland, free zones, and offshore with our
+                  Dubais mainland, free zones, and offshore with our
                   unparalleled company formation services.
                 </p>
               </div>
@@ -53,7 +53,7 @@ const ServiceCard = () => {
               <div className="card-body ">
                 <h5 className="card-title">Visa Services</h5>
                 <p className="card-text">
-                  We'll manage every step of the visa application and approval
+                  We will manage every step of the visa application and approval
                   process for you, your business associates, staff, and loved
                   ones, ensuring a smooth and hassle-free experience.
                 </p>
