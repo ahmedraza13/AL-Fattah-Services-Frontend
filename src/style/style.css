@@ -260,7 +260,9 @@ nav {
 }
 
 /* About Section Styling */
-
+.about-section {
+  margin-top: 100px;
+}
 .about-section .row > h6 {
   font-family: "Arial", Helvetica, sans-serif;
   font-size: 20px;
@@ -290,18 +292,12 @@ nav {
   }
 }
 
-@media screen and (max-width: 500px) {
-  .about-section img {
-    width: 300px;
-  }
-}
-
 /* _________________About Section Styling End____________________ */
 
 /* Service Card Section */
 
 .service-card-section {
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .service-card-section .service-section-text {
@@ -682,7 +678,7 @@ form > button {
 .section-5,
 .section-7,
 .section-9 {
-  color: #004175;
+  color: black;
   text-align: justify;
   line-height: 30px;
   padding: 20px;
@@ -799,36 +795,29 @@ form > button {
   color: #111d29;
 }
 
-
 /* _______PRO OVERVIEW CSS END______________ */
-
 
 /* PRO DOCUMENTS CSS */
 
-.pro-documents-section{
+.pro-documents-section {
   background-color: #004175;
   padding-bottom: 40px;
- 
 }
-.pro-documents-section h1{
+.pro-documents-section h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 34px;
   color: #ffffff;
   border-bottom: 1px solid white;
-  
 }
 
-.pro-documents-section p{
+.pro-documents-section p {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
   font-size: 16px;
   margin-top: 20px;
- 
 }
 
-
-
-.pro-documents-section li{
+.pro-documents-section li {
   color: #ffffff;
   font-size: 18px;
   list-style: none;
@@ -836,76 +825,205 @@ form > button {
   padding: 5px 0px;
 }
 
-
 /* PRO BENEFITS CSS */
 
-.pro-benefits-section .row > h1{
+.pro-benefits-section .row > h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 34px;
   color: #294797;
   text-align: center;
 }
 
-.pro-benefits-section .row > p{
+.pro-benefits-section .row > p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: #111d29;
   text-align: center;
 }
 
-.pro-benefits-text{
+.pro-benefits-text {
   margin-top: 20px;
 }
- .pro-benefits-section .pro-benefits-text  h3{
+.pro-benefits-section .pro-benefits-text h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
-  color: purple ;
+  color: purple;
 }
 
-.pro-benefits-section .pro-benefits-text  p{
+.pro-benefits-section .pro-benefits-text p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: black;
 }
 
-@media screen and (max-width: 990px)  {
-  .pro-benefits-section .pro-benefits-text{
+@media screen and (max-width: 990px) {
+  .pro-benefits-section .pro-benefits-text {
     text-align: center;
   }
 }
 
-
 /* BEST PROSERVICE CSS */
 
-
-.best-pro-service{
+.best-pro-service {
   background-color: #004175;
 }
 
-.best-pro-service  h1{
+.best-pro-service h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 34px;
   color: #ffffff;
   border-bottom: 1px solid white;
 }
 
-.best-pro-service p{
+.best-pro-service p {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
 }
 
-
-
 /* Al Fattah Help CSS */
 
-.al-fattah-help .row > h1{
+.al-fattah-help .row > h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 34px;
   color: #294797;
 }
 
-.al-fattah-help .row > p{
+.al-fattah-help .row > p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: #111d29;
+}
+
+/* Translation Service Page CSS */
+
+.translation-intro-section {
+  margin-top: 80px;
+}
+
+.translation-intro-section h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  color: #294797;
+}
+
+.translation-intro-section p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #111d29;
+}
+
+.translation-cards-section {
+  margin-top: 80px;
+}
+.translation-cards-section h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  color: #294797;
+  text-align: center;
+}
+
+.translation-cards-section img {
+  width: 81px;
+  margin-top: 10px;
+}
+
+.translation-cards-section .card {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 80%;
+  border: none;
+  text-align: center;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px;
+  cursor: pointer;
+}
+
+.translation-cards-section span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+  padding: 20px;
+  font-weight: bold;
+}
+
+/* Legal Translation CSS */
+
+.legal-translation-section {
+  background-color: #004175;
+  margin-top: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.legal-translation-section h1 {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 5px;
+}
+
+.legal-translation-section p{
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  
+}
+
+@media screen and (max-width: 991px) {
+  .legal-translation-section .container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* Footer CSS Start */
+
+.footer {
+  background-color: #004175;
+  margin-top: 80px;
+}
+
+.footer .container .row .col-md-4 > h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.footer li {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer .links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 26px;
+}
+
+@media screen and (max-width: 575px) {
+  .footer .container .row .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer h5 {
+    margin-top: 10px;
+  }
 }

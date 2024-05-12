@@ -7,7 +7,7 @@ const ProDocuments = () => {
             In-House Government Approved Typing Center in Dubai
           </h1>
           <p className="text-center">
-            Indus Business Services is proud to offer an in-house government
+            Al Fattah Documents Clearing Services is proud to offer an in-house government
             approved typing center to help you meet all your document clearance
             and processing services in Dubai. We offer a one stop shop for all
             governmental PRO service needs. This allows for accurate and faster

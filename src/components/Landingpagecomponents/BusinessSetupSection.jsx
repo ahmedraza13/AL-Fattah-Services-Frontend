@@ -1,3 +1,6 @@
+import cardoneimg from "../../Images/business-setup-card-one.jpg"
+import cardtwoimg from "../../Images/business-setup-card-two.jpg"
+import cardthreeimg from "../../Images/business-setup-card-three.jpg"
 const BusinessSetupSection = () => {
   return (
     <div className="business-setup-section">
@@ -23,8 +26,8 @@ const BusinessSetupSection = () => {
           <div className="col-lg-4 col-md-4 col-12">
             <div className="card">
               <img
-                src="https://static.theceomagazine.net/wp-content/uploads/2023/09/16045229/hub2.jpg"
-                alt=""
+                src={cardoneimg}
+                alt="duabi mainland company formation"
               />
               <div className="card-body ">
                 <h5 className="card-title p-1 text-center">Dubai Mainland Company Formation</h5>
@@ -32,7 +35,7 @@ const BusinessSetupSection = () => {
                   Renowned for its exceptional infrastructure, favorable
                   taxation policies, and the oversight of the Department of
                   Economic Development (DED), the mainland stands as an optimal
-                  location for establishing a business. Here, you'll find
+                  location for establishing a business. Here, you will find
                   unparalleled opportunities for trading with enterprises both
                   locally and globally, making it an ideal choice for
                   entrepreneurial endeavors.
@@ -50,8 +53,8 @@ const BusinessSetupSection = () => {
           <div className="col-lg-4 col-md-4 col-12">
             <div className="card ">
               <img
-                src="https://www.dubaifreezone.ae/blog/wp-content/uploads/2016/01/business.jpg"
-                alt=""
+                src={cardtwoimg}
+                alt="dubai freezone company formation"
               />
               <div className="card-body ">
                 <h5 className="card-title p-1 text-center">Business Setup in Freezones</h5>
@@ -77,8 +80,8 @@ const BusinessSetupSection = () => {
           <div className="col-lg-4 col-md-4 col-12">
             <div className="card">
               <img
-                src="https://st5.depositphotos.com/2853475/65332/i/450/depositphotos_653324126-stock-photo-group-middle-eastern-corporate-business.jpg"
-                alt=""
+                src={cardthreeimg}
+                alt="dubai Offshore company formation"
               />
               <div className="card-body ">
                 <h5 className="card-title p-1 text-center">Dubai Offshore Company Formation</h5>

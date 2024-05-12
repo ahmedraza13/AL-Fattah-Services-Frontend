@@ -1,16 +1,16 @@
 const Probenefits = () => {
   return (
     <div className="container pro-benefits-section mt-5">
-      <div className="row">
+      <div className="row ">
         <h1 >Why Companies Should Have PRO Services Company in Dubai?</h1>
-        <p>
+        <p className="mt-3">
           Running a business in Dubai is a dream come true for many, but there
           are tons of processes and paperwork that you must stay on top of, in
           order to continue operating legally in the Emirates. This can become
           tedious for business owners, which is why we always recommend taking
           help from the best PRO services agency in Dubai!
         </p>
-        <div className="col-lg-6 col-md-6 col-12  pro-benefits-text">
+        <div className="col-lg-6 col-md-6 col-12  pro-benefits-text mt-5">
           <h3>Cost-Effective</h3>
           <p>
             Our end to end PRO service solutions are cost-effective. We save
@@ -24,7 +24,7 @@ const Probenefits = () => {
             documents to relevant authorities.
           </p>
         </div>
-        <div className="col-lg-6 col-md-6 col-12  pro-benefits-text">
+        <div className="col-lg-6 col-md-6 col-12  pro-benefits-text mt-5">
           <h3>Stress-Free</h3>
           <p>
             With our document clearance and processing services in Dubai, you

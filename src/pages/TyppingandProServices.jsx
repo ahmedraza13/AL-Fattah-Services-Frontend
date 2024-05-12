@@ -1,5 +1,5 @@
-import Header from "../components/Landingpagecomponents/Header";
-import Navbar from "../components/Landingpagecomponents/Navbar";
+import Header from "../layout/Header";
+import Navbar from "../layout/Navbar";
 import Probanner from "../components/Propagecomponents/Probanner";
 import Prointro from "../components/Propagecomponents/Prointro";
 import Prooverview from "../components/Propagecomponents/Prooverview"
@@ -7,7 +7,7 @@ import ProDocuments from "../components/Propagecomponents/Prodocuments";
 import Probenefits from "../components/Propagecomponents/Probenefits"; 
 import BestProService from "../components/Propagecomponents/BestProService";
 import AlFattahHelp from "../components/Propagecomponents/AlFattahHelp";
-import Footer from "../components/Landingpagecomponents/Footer";
+import Footer from "../layout/Footer";
 
 const ProServicesPage = () => {
   return (

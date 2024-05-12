@@ -1,51 +1,40 @@
 // import logo from './logo.svg';
-import Header from "../components/Landingpagecomponents/Header";
-import Navbar from "../components/Landingpagecomponents/Navbar";
-import Footer from "../components/Landingpagecomponents/Footer";
-import Visabanner from '../Images/visa-page-img.jpg'
+import Header from "../layout/Header";
+import Navbar from "../layout/Navbar";
+import Footer from "../layout/Footer";
+import Visabanner from "../Images/visa-page-img.jpg";
 
 function VisaServicePage() {
   return (
     <>
       <Header />
       <Navbar />
-      <div className="App">
-        <div className="main-section">
-          <div className="sub-main-sec">
+      <div className="container App">
+        <div className="row">
+          <div className=" col-lg-6 col-md-6 col-sm-12 mt-5">
             <h3 className="head-color">
               Reliable Visa Services Agency in the UAE
             </h3>
             <p>
-              In order to legally live in the UAE as a foreigner, you must
-              obtain a relevant visa for yourself, your family, employees,
-              partners, etc. While the United Arab Emirates has created a
-              seamless and clear-cut visa process in order to attract foreign
-              investment, is still does require quite a bit of time, money,
-              paperwork, and documentation. At Indus Business Services, we are
+              To legally live in the UAE as a foreigner, you must obtain a
+              relevant visa for yourself, your family, employees, partners, etc.
+              While the United Arab Emirates has created a seamless and
+              clear-cut visa process to attract foreign investment, it still
+              does require quite a bit of time, money, paperwork, and
+              documentation. At Al Fattah Document Clearing Services, we are
               here to make visa processing as easy as possible! We help you get
               officially settled in Dubai by taking care of all the paperwork
-              and legal procedures, so that you and your family can obtain your
+              and legal procedures so that you and your family can obtain your
               visa as soon as possible! We are well-versed in the processing
               procedures of all types of Dubai-based visas, including family
-              visa, employment visa, visit visa, investor visa, golden visa, and
-              more. We can deftly identify the type of visa you are eligible
-              for, and then walk you through each step of the process for a
-              smooth visa processing experience!
+              visas, employment visas, visit visas, investor visas, golden
+              visas, and more. We can deftly identify the type of visa you are
+              eligible for, and then walk you through each step of the process
+              for a smooth visa processing experience!
             </p>
-
-            <div className="child">
-              <p>
-                {" "}
-                <h4>
-                  GET THE BEST VISA SERVICES IN DUBAI <br />
-                  GET FREE CONSULTATION
-                </h4>
-              </p>
-              <button className="button-color-2">call now</button>
-            </div>
           </div>
-          <div className="sub-main-sec2">
-            <img src={Visabanner} alt="visabanner" width={500} />
+          <div className=" col-lg-6 col-md-6 col-sm- mt-5">
+            <img src={Visabanner} alt="visabanner" className="img-fluid" />
           </div>
         </div>
 

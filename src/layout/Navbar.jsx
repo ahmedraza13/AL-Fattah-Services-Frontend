@@ -1,4 +1,4 @@
-import navlogo from "../../Images/logotys.png";
+import navlogo from "../Images/navlogo.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -9,7 +9,7 @@ const Navbar = () => {
   };
   return (
     <nav className="navbar navbar-expand-md">
-      <div className="container-fluid d-flex justify-content-around align-items-center" >
+      <div className="container-fluid d-flex justify-content-around align-items-center">
         <a className="navbar-brand mt-2" href="#">
           <img src={navlogo} alt="nav-logo" width={100} />
         </a>
@@ -54,29 +54,24 @@ const Navbar = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Business Setup
-                  </a>
+                  <Link
+                    to={"/translation-service"}
+                    className="dropdown-item"
+                    href="#"
+                  >
+                    Translation
+                  </Link>
                 </li>
+
                 <li>
                   <Link to={"/visa-service"} className="dropdown-item" href="#">
                     Visa
                   </Link>
                 </li>
                 <li>
-                <Link to={"/pro-service"} className="dropdown-item" href="#">
+                  <Link to={"/pro-service"} className="dropdown-item" href="#">
                     Typing and Pro Services
                   </Link>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Translation Service
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Social Media
-                  </a>
                 </li>
               </ul>
             </li>

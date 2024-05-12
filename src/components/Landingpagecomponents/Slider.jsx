@@ -1,6 +1,7 @@
-import banneroneimg from '../../Images/slider-img-one.png'
+import banneroneimg from '../../Images/slider-img-one.jpg'
 import bannertwoimg from '../../Images/slider-img-two.jpg'
 import bannerthreeimg from '../../Images/slider-img-three.jpg'
+import bannerfourimg from '../../Images/slider-img-four.jpg'
 
 const Slider = () => {
     return (
@@ -11,13 +12,16 @@ const Slider = () => {
     >
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval={2000}>
-          <img src="https://www.companysetup.ae/wp-content/uploads/2023/12/business-activities-in-dubai.jpg" className="d-block w-100" alt="..."  height={500}/>
+          <img src={banneroneimg} className="d-block w-100" alt="..."  height={500}/>
         </div>
         <div className="carousel-item" data-bs-interval={2000}>
           <img src={bannertwoimg} className="d-block w-100" alt="..." height={500} />
         </div>
         <div className="carousel-item" data-bs-interval={2000}>
           <img src={bannerthreeimg} className="d-block w-100" alt="..." height={500}/>
+        </div>
+        <div className="carousel-item" data-bs-interval={2000}>
+          <img src={bannerfourimg} className="d-block w-100" alt="..." height={500}/>
         </div>
       </div>
       <button
