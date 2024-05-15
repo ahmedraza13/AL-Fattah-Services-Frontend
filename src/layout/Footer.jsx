@@ -1,5 +1,4 @@
-
-
+import whatsappicon from '../Images/whatsapp-fixed-icon.png'
 const Footer = () => {
   return (
     <footer className="footer  py-3 pt-4">
@@ -22,7 +21,7 @@ const Footer = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-sm-4 col-12">
             <h5 className="text-light">Follow Us</h5>
-            <div className="links d-flex gap-2">
+            <div className="links d-flex gap-3">
               <a
                 href="https://www.facebook.com/people/Al-Fattah/61558987553137/?mibextid=JRoKGi"
                 target="_blank"
@@ -37,6 +36,18 @@ const Footer = () => {
                 target="_blank"
               >
                 <i className="bi bi-instagram "></i>
+              </a>
+              <a href="https://www.tiktok.com/@fattahuae" target="_blank">
+                <i className="bi bi-tiktok "></i>
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCRqav5GwLAGeFrdZsGQWQ8A"
+                target="_blank"
+              >
+                <i className="bi bi-youtube "></i>
+              </a>
+              <a href="https://wa.me/971522990514" target="_blank">
+               <img src={whatsappicon} alt="whatsapp-icon" width={80} className='last-icon' />
               </a>
             </div>
           </div>

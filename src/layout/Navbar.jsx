@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-md">
       <div className="container-fluid d-flex justify-content-around align-items-center">
         <a className="navbar-brand mt-2" href="#">
-          <img src={navlogo} alt="nav-logo" width={100} />
+          <img src={navlogo} alt="nav-logo"  />
         </a>
         <button
           className="navbar-toggler"

@@ -37,6 +37,14 @@ body {
 .right-side .bi-instagram:hover {
   color: purple;
 }
+
+.right-side .bi-tiktok:hover {
+  color: black;
+}
+
+.right-side .bi-youtube:hover {
+  color: red;
+}
 /* Header Media Query */
 @media screen and (max-width: 380px) {
   .header-container .left-side span {
@@ -80,7 +88,7 @@ nav {
 }
 
 .nav-item a:hover {
-  color: #d71a21;
+  color: purple;
 }
 
 .navbar-nav button {
@@ -96,7 +104,7 @@ nav {
 }
 
 .navbar-nav button:hover {
-  background-color: #d71a21;
+  background-color: purple;
   color: #ffffff;
 }
 
@@ -1067,7 +1075,7 @@ form > button {
   padding-bottom: 10px;
 }
 
-.al-fattah-why p{
+.al-fattah-why p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: white;
@@ -1100,6 +1108,36 @@ form > button {
   text-decoration: none;
   color: #ffffff;
   font-size: 26px;
+}
+
+.footer .links .bi-facebook:hover {
+  color: blue;
+}
+
+.footer .links .bi-whatsapp:hover {
+  color: #25d366;
+}
+
+.footer .links .bi-instagram:hover {
+  color: purple;
+}
+
+.footer .links .bi-tiktok:hover {
+  color: black;
+}
+
+.footer .links .bi-youtube:hover {
+  color: red;
+}
+
+.last-icon {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+}
+
+.last-icon:hover{
+  transform: rotate(100deg);
 }
 
 @media screen and (max-width: 575px) {
