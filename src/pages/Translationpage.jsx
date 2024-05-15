@@ -15,6 +15,7 @@ const TranslationPage = () => {
             <TranslationCards />
             <LegalTranslation />
             <Footer />
+           
         </>
     );
 };
