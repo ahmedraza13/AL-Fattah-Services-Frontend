@@ -1081,6 +1081,33 @@ form > button {
   color: white;
   margin-top: 10px;
 }
+
+/* About Page CSS */
+
+.about-page-section{
+  margin-top: 80px;
+  background-color: #004175;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.about-page-section h1{
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+.about-page-section p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+}
+  
+
 /* Footer CSS Start */
 
 .footer {
@@ -1132,7 +1159,7 @@ form > button {
 
 .last-icon {
   position: fixed;
-  bottom: 100px;
+  bottom: 50px;
   right: 20px;
 }
 

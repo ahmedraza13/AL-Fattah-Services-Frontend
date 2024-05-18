@@ -85,9 +85,9 @@ const Navbar = () => {
               </ul>
             </li>
             <li className="nav-item mt-2">
-              <a className="nav-link" href="#">
+              <Link to={'about-us'} className="nav-link" href="#">
                 About Us
-              </a>
+              </Link>
             </li>
             <li className="nav-item mt-2">
               <a className="nav-link" href="#">
